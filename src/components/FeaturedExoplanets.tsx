@@ -67,11 +67,13 @@ const FeaturedExoplanets = () => {
 				<div className="mb-16 flex justify-center">
 					<div className="w-full max-w-4xl mx-auto">
 						<div className="relative aspect-video rounded-xl overflow-hidden shadow-lg border border-cosmic-blue/20 bg-card">
-							<img
-								src="/Transit Method For Detecting Planets(4K_HD).gif"
-								alt="Transit Method For Detecting Planets"
-								className="absolute inset-0 w-full h-full object-cover"
-								style={{ minHeight: '315px' }}
+							<iframe
+								className="absolute inset-0 w-full h-full"
+								src="https://www.youtube.com/embed/bv2BV82J0Jk?autoplay=1&mute=1&modestbranding=1&rel=0&controls=1&loop=1&playlist=bv2BV82J0Jk"
+								title="Transit Method For Detecting Planets"
+								frameBorder="0"
+								allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+								allowFullScreen
 							/>
 						</div>
 					</div>
