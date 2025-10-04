@@ -206,7 +206,8 @@ const Hero = () => {
         <div className="flex justify-center mb-16">
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-cosmic-blue to-nebula-purple hover:from-nebula-purple hover:to-cosmic-blue text-white `px-16 py-6 text-2xl font-bold transition-all duration-300 hover:scale-110 hover:shadow-2xl shadow-xl animate-glow-subtle hover-lift hover-glow pulse-border border-2 border-cosmic-gold/30"
+            className="bg-gradient-to-r from-cosmic-blue to-nebula-purple hover:from-nebula-purple hover:to-cosmic-blue text-white px-16 py-6 text-2xl font-bold transition-all duration-300 hover:scale-110 hover:shadow-2xl shadow-xl animate-glow-subtle hover-lift hover-glow pulse-border border-2 border-cosmic-gold/30"
+            onClick={() => window.open("https://exoplanet-app-up2ga2wzbuptpeeti8jut8.streamlit.app/#1234-ahtmalat-alnmwdhj", "_blank")}
           >
             <span className="animate-bounce-gentle text-3xl mr-3">🤖</span> Try AI Model
           </Button>
