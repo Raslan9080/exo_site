@@ -203,20 +203,12 @@ const Hero = () => {
           Each discovery reveals new insights into planetary formation and the potential for life in the universe.
         </p>
         
-        <div className="flex flex-col sm:flex-row gap-6 justify-center mb-16">
+        <div className="flex justify-center mb-16">
           <Button 
             size="lg" 
-            className="bg-gradient-to-r from-cosmic-blue to-nebula-purple hover:from-nebula-purple hover:to-cosmic-blue text-white px-10 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl shadow-lg animate-glow-subtle hover-lift hover-glow pulse-border"
+            className="bg-gradient-to-r from-cosmic-blue to-nebula-purple hover:from-nebula-purple hover:to-cosmic-blue text-white `px-16 py-6 text-2xl font-bold transition-all duration-300 hover:scale-110 hover:shadow-2xl shadow-xl animate-glow-subtle hover-lift hover-glow pulse-border border-2 border-cosmic-gold/30"
           >
-            <span className="animate-bounce-gentle">🪐</span> Explore Exoplanets
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-2 border-stellar-gold text-stellar-gold hover:bg-stellar-gold hover:text-white px-10 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl hover-lift hover-glow"
-            onClick={() => window.open("https://youtu.be/0ZOhJe_7GrE?si=u_PYV_RIM-3ZW9NZ", "_blank")}
-          >
-            <span className="animate-pulse-active">📺</span> Watch Videos
+            <span className="animate-bounce-gentle text-3xl mr-3">🤖</span> Try AI Model
           </Button>
         </div>
 

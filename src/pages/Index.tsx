@@ -2,7 +2,6 @@ import Hero from "@/components/Hero";
 import ExoplanetStats from "@/components/ExoplanetStats";
 import FeaturedExoplanets from "@/components/FeaturedExoplanets";
 import ExoplanetVideos from "@/components/ExoplanetVideos";
-import DiscoveryMethods from "@/components/DiscoveryMethods";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import { useEffect, useState } from "react";
@@ -39,10 +38,6 @@ const Index = () => {
         <ExoplanetVideos />
       </div>
 
-      {/* Discovery Methods */}
-      <div id="methods" className={`transition-all duration-1000 delay-800 ${isLoaded ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-8'}`}>
-        <DiscoveryMethods />
-      </div>
 
       {/* Footer */}
       <Footer />

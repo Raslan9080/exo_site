@@ -207,19 +207,6 @@ const DiscoveryMethods = () => {
           ))}
         </div>
 
-        {/* Summary section */}
-        <div className="text-center">
-          <div className="inline-block px-8 py-6 bg-gradient-to-r from-cosmic-blue/10 to-cosmic-purple/10 rounded-2xl border border-cosmic-blue/20 max-w-4xl">
-            <h3 className="text-2xl font-bold text-cosmic-blue mb-4">
-              🌟 The Future of Exoplanet Discovery
-            </h3>
-            <p className="text-lg text-muted-foreground leading-relaxed">
-              With upcoming missions like <span className="text-cosmic-gold font-semibold">James Webb Space Telescope</span> and 
-              <span className="text-cosmic-purple font-semibold"> Roman Space Telescope</span>, we're entering a new era of exoplanet science. 
-              These advanced instruments will help us characterize atmospheres, search for biosignatures, and discover even more distant worlds.
-            </p>
-          </div>
-        </div>
       </div>
     </section>
   );

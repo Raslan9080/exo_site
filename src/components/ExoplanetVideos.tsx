@@ -146,15 +146,6 @@ const ExoplanetVideos = () => {
 					))}
 				</div>
 
-				{/* Additional resources */}
-				<div className="mt-20 text-center">
-					<div className="inline-block px-8 py-4 bg-gradient-to-r from-cosmic-purple/10 to-cosmic-blue/10 rounded-2xl border border-cosmic-purple/20">
-						<p className="text-lg text-muted-foreground">
-							<span className="text-cosmic-purple font-semibold">💡 Pro Tip:</span> 
-							{" "}Subscribe to these channels for the latest exoplanet discoveries and space science content!
-						</p>
-					</div>
-				</div>
 			</div>
 		</section>
 	);
